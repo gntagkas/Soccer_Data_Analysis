@@ -45,7 +45,7 @@ The project consists of several SQL scripts designed to work with the European S
 
 ---
 
-For the four questions in this project, our primary focus was on writing correct SQL queries. Analyzing the results was not our main objective; instead, we focused on ensuring the code was accurate and that it generated reliable outputs.
+> **Note:** For the four questions in this project, our primary focus was on writing correct SQL queries. Analyzing the results was not our main objective; instead, we focused on ensuring the code was accurate and that it generated reliable outputs.
 
 ## License
 This project is licensed under the **MIT License**. See the LICENSE file for details.
