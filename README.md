@@ -1,6 +1,7 @@
 # European Soccer Database Analysis
 
-This project uses the **European Soccer Database** dataset from [Kaggle](https://www.kaggle.com/datasets/hugomathien/soccer/data) to perform various analyses on soccer data. The main goal is to explore team strategies, player performance, and match outcomes using **PostgreSQL** and **SQL** queries.
+This project utilizes the **European Soccer Database** dataset from [Kaggle](https://www.kaggle.com/datasets/hugomathien/soccer/data) to conduct various analyses on soccer data. The main goal is to explore team strategies, player performance, and match outcomes using **PostgreSQL** and **SQL** queries. The objective is to enhance SQL skills by working with real, large datasets that contain multiple tables and columns, all sourced from Kaggle.
+
 
 ## Technologies Used
 - **Visual Studio Code** for development.
@@ -41,6 +42,8 @@ The project consists of several SQL scripts designed to work with the European S
 ---
 
 > **Note:** For the four questions in this project, our primary focus was on writing correct SQL queries. Analyzing the results was not our main objective; instead, we focused on ensuring the code was accurate and that it generated reliable outputs.
+
+
 
 
 
