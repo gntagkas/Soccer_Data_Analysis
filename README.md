@@ -38,11 +38,6 @@ The project consists of several SQL scripts designed to work with the European S
 
  **Description:** This analysis involves creating teams with high-performance characteristics (e.g., more players with high scores in shot power or free kick accuracy) and analyzing the effect of these players on team performance. We aim to understand how specific player attributes contribute to the overall success of the team.
 
-### 4. **Player Age and Team Performance Analysis**
-**Question:** How does the age of the players affect the overall performance of the team each season? Can a correlation be observed between the average age of the team and the number of wins?
-
- **Description:** This analysis explores the relationship between the average age of players on a team and the team’s overall performance each season. By examining this correlation, we aim to determine whether teams with younger or older players tend to perform better or worse in terms of wins and overall success.
-
 ---
 
 > **Note:** For the four questions in this project, our primary focus was on writing correct SQL queries. Analyzing the results was not our main objective; instead, we focused on ensuring the code was accurate and that it generated reliable outputs.
