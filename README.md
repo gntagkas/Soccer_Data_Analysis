@@ -30,7 +30,7 @@ The project consists of several SQL scripts designed to work with the European S
    **Description:** By combining team strategy data with match results, we analyze which strategies are most effective when a team faces opponents with specific strategies. This helps us understand how a team's tactics influence their performance based on the opponent's approach.
 
 ### 2. **Analysis of Strategy and Scoring**
-   **Question:** Which strategies of the coach (e.g., offensive or defensive approach) are associated with a greater number of goals on offense?
+   **Question:** Which strategies of the coach (e.g., `offensive` or `defensive approach`) are associated with a greater number of goals on offense?
 
    **Description:** By combining team strategy data with match results, we test which strategy is more effective for scoring. This analysis helps identify whether an offensive or defensive approach leads to more goals.
 
