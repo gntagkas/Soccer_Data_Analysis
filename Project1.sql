@@ -63,8 +63,8 @@ the winning percentages excluding and including draws.
         SUM(CASE WHEN home_team_goal > away_team_goal THEN 1 ELSE 0 END) AS home_wins,
         SUM(CASE WHEN home_team_goal < away_team_goal THEN 1 ELSE 0 END) AS away_wins,
         SUM(CASE WHEN home_team_goal = away_team_goal THEN 1 ELSE 0 END) AS draw,
-        ROUND (SUM(CASE WHEN home_team_goal > away_team_goal THEN 1 ELSE 0 END)* 100.0 / COUNT(*),2) home_win_percentage,
-        ROUND (SUM(CASE WHEN home_team_goal < away_team_goal THEN 1 ELSE 0 END)*100.0 / COUNT(*),2) away_win_percentage
+        ROUND (SUM(CASE WHEN home_team_goal > away_team_goal THEN 1 ELSE 0 END)* 100.0 / COUNT(*),2) AS home_win_percentage,
+        ROUND (SUM(CASE WHEN home_team_goal < away_team_goal THEN 1 ELSE 0 END)*100.0 / COUNT(*),2) AS away_win_percentage
     FROM table1
     GROUP BY table1.home_buildUpPlaySpeed,
             table1.home_chancecreationshoot,
